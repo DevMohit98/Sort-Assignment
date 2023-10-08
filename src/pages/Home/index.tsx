@@ -1,14 +1,10 @@
 import { ColumnDef } from "@tanstack/react-table";
 import Table from "../../componet/Table";
 import  data from "../../api/data.json";
+import { ICountry } from '../../interface';
 import "./index.css"
 
 // Interface 
-interface ICountry{
-    name:string,
-    dail_code:string,
-    code:string
-}
 
 const Home=()=>{
     // Table Columns
